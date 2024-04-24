@@ -41,14 +41,14 @@ Before you begin, ensure you have Node.js and npm installed on your machine.
 `node app.js && npm run dev && npm start `
 Now, the server should be running on http://localhost:3001.
 
-API Endpoints
+## API Endpoints
 Here's a breakdown of available endpoints and their functionality:
 
-GET /api/notes: Returns a list of all notes.
-GET /api/notes/:id: Retrieves a specific note by its ID.
-POST /api/notes: Adds a new note. The request body should be in JSON format and include content and important fields.
-DELETE /api/notes/:id: Deletes the note with the specified
-Example of Adding a Note
+- GET /api/notes: Returns a list of all notes.
+- GET /api/notes/:id: Retrieves a specific note by its ID.
+- POST /api/notes: Adds a new note. The request body should be in JSON format and include content and important fields.
+- DELETE /api/notes/:id: Deletes the note with the specified
+- Example of Adding a Note
 You can add a new note by sending a POST request to /api/notes with a JSON payload:
 
 {
