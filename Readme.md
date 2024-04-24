@@ -30,14 +30,14 @@ Before you begin, ensure you have Node.js and npm installed on your machine.
    ```bash
    git clone https://github.com/Chouikhi-abdallah/Notes-Express-Restful-API.git
 
-Change into the project directory:
+2. Change into the project directory:
 `cd Notes-Express-Restful-API`
-Install dependencies:
+3. Install dependencies:
 `npm install`
 `npm install express`
 `npm install --save-dev nodemon`
  
-Start the server:
+4. Start the server:
 `node app.js && npm run dev && npm start `
 Now, the server should be running on http://localhost:3001.
 
@@ -59,5 +59,3 @@ You can add a new note by sending a POST request to /api/notes with a JSON paylo
 ## Contributing
 Contributions to enhance or extend the functionality of NotesExpressAPI are warmly welcomed. If you have suggestions or improvements, feel free to fork the repository and submit a pull request.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
